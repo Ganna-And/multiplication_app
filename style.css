@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    font-family:cursive;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSficgtnwNixy2aRp4doFKB9icQot-8AQMbNbYknYGNpV4ETWxlUWxn5W6Gaz4bDewhjtU&usqp=CAU');
+   
+}
+
+ .form{
+    margin: 20px;
+    padding: 30px;
+    background-color: rgba(226, 226, 51, .78);
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px  rgb(11, 11, 28, .6);
+    display: block;
+}
+
+.input{
+    width: 100%;
+    border: 2px solid;
+    border-color: rgb(9, 117, 150);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0, .4);
+    font-size: larger;
+    font-family: cursive;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.input :hover{
+    border-color: rgb(9, 117, 150);
+}
+
+.btn{
+    margin: 15px 0;
+    padding: 10px 0;
+    width: 100%;
+    font-size: larger;
+    background-color:rgb(9, 117, 150);
+    color: white;
+    border-radius: 5px ;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0, .6);;
+}
+
+.btn:hover{
+    filter: brightness(.9);
+}
+
+.score{
+    
+    text-align: end;
+}
